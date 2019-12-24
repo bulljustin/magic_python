@@ -24,11 +24,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="magic_python\numbers.py" />
-    <Compile Include="magic_python\strings.py" />
-    <Compile Include="magic_python\__init__.py" />
     <Compile Include="setup.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="magic_python\strings.py" />
+    <Compile Include="magic_python\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE" />

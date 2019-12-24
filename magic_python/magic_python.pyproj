@@ -5,13 +5,13 @@
     <ProjectGuid>47334556-d12e-4020-ba7f-0532f30ae4f8</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>strings.py</StartupFile>
+    <StartupFile>setup.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>magic_python</Name>
-    <RootNamespace>strings</RootNamespace>
+    <RootNamespace>magic_python</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,20 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="numbers.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="magic_python\numbers.py" />
+    <Compile Include="magic_python\strings.py" />
+    <Compile Include="magic_python\__init__.py" />
     <Compile Include="setup.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="strings.py" />
-    <Compile Include="__init__.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="magic_python\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

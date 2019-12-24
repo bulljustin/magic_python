@@ -1,2 +1,2 @@
-def length(string: string):
+def length(string: object):
 	return len(string)

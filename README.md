@@ -28,3 +28,4 @@ This package is designed to overcome some of the technical debt from basic langu
 | MagicPython function | Python func |
 | --- | --- |
 | `length(obj)` | `len(obj)` |
+| `string(obj)` | `str(obj)` |

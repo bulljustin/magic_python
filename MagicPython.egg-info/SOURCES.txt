@@ -1,13 +1,13 @@
 README.md
 setup.py
+MagicPython.egg-info/PKG-INFO
+MagicPython.egg-info/SOURCES.txt
+MagicPython.egg-info/dependency_links.txt
+MagicPython.egg-info/top_level.txt
 magic_python/__init__.py
 magic_python/functions.py
 magic_python/numbers.py
 magic_python/strings.py
-magic_python.egg-info/PKG-INFO
-magic_python.egg-info/SOURCES.txt
-magic_python.egg-info/dependency_links.txt
-magic_python.egg-info/top_level.txt
 tests/__init__.py
 tests/functions_tests.py
 tests/numbers_tests.py

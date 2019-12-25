@@ -1,4 +1,5 @@
 try:
+  import setuptools
   from setuptools import setup
 except ImportError:
   from distutils.core import setup
@@ -7,8 +8,10 @@ from datetime import datetime
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+current = time()
+
 setuptools.setup(name="magic-python",
-    version="0.0.2",
+    version=f"0.0.1.{current}",
     author="Justin Frazier",
     author_email="justin@jmfrazier.com",
     description="Adding constants and functions that can be used in place of magic string, magic numbers, and abbreviated function names.",

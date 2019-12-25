@@ -5,7 +5,7 @@
     <ProjectGuid>47334556-d12e-4020-ba7f-0532f30ae4f8</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>setup.py</StartupFile>
+    <StartupFile>../setup.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,15 +26,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="numbers.py" />
-    <Compile Include="setup.py">
+    <Compile Include="../setup.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="strings.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="LICENSE" />
-    <Content Include="README.md" />
+    <Content Include="../LICENSE" />
+    <Content Include="../README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

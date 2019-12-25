@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: magic-python
-Version: 0.0.1.85496
+Name: MagicPython
+Version: 0.0.1.85837
 Summary: Adding constants and functions that can be used in place of magic string, magic numbers, and abbreviated function names.
 Home-page: https://github.com/bulljustin/magic_python
 Author: Justin Frazier
